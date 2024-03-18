@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+}
+
+.main-container {
+    width: 80%;
+    height: 35%;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    padding: 40px 50px;
+    background-color: violet;
+    color: white;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    font: bolder;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.joke-container {
+    margin-bottom: 30px;
+}
+
+#joke {
+    font-family: Consolas, Monaco;
+    font-size: 22px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    /* background: linear-gradient(0deg, rgba(95, 253, 255, 1) 0%, rgba(156, 247, 165, 1) 38%, rgba(255, 236, 18, 1) 100%); */
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    transition: all .3s ease-out;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    transform: translate(0, -2px);
+}
+
+
+#copy-button,
+#tweet {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    display: none;
+    font-family: Consolas, Monaco;
+    margin-top: 10px;
+}
+
+span {
+    font-size: 12px;
+    font-family: Consolas, Monaco;
+}
