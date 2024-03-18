@@ -28,8 +28,8 @@ body {
 
 
 h1 {
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 200;
     font: bolder;
     text-shadow: 3px 3px 1px rgba(0, 0, 0, .3);
     letter-spacing: 2px;
@@ -43,7 +43,7 @@ h1 {
 
 #joke {
     font-family: Consolas, Monaco;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 button {
@@ -53,7 +53,7 @@ button {
     color: black;
     border: none;
     outline: none;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 15px;
     border-radius: 10px;
     margin-left: 20px;
